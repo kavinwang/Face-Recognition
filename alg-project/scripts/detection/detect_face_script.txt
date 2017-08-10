@@ -1,0 +1,4 @@
+python /sde/projects/face-recognition-project/v3/alg-project/codes/detection/detect_face.py \
+--caffe_model_dir /sde/projects/face-recognition-project/v3/models/mtcnn_model/caffe_to_tensorflow \
+--input_dir /sdb/workdatas/Face/ORL \
+--output_dir /home/csairmind/Desktop

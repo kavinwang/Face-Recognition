@@ -1,0 +1,7 @@
+python /sde/projects/face-recognition-project/v3/alg-project/codes/embedding/embedding_train.py \
+--version 1 \
+--runtime_dir /sde/projects/face-recognition-project/v3/runtime/embedding/ \
+--data_dir abe|/sdb/workdatas/Face/ABERDEEN/crop,csair|/sdb/workdatas/Face/CSAIR/crop,feret|/sdb/workdatas/Face/FERET/FERET_80_80,lfw|/sdb/workdatas/Face/LFW/crop,orl|/sdb/workdatas/Face/ORL,umd1|/sdb/workdatas/Face/UMDfaces/crop/umdfaces_batch1,umd2|/sdb/workdatas/Face/UMDfaces/crop/umdfaces_batch2,umd3|/sdb/workdatas/Face/UMDfaces/crop/umdfaces_batch3,wlfdb|/sdb/workdatas/Face/WLFDB/crop/WLFDB6025 \
+--epoch_size 500 \
+--pretrained_model /sde/projects/face-recognition-project/v3/runtime/embedding/20170801-171034/models/ \
+--random_rotate False

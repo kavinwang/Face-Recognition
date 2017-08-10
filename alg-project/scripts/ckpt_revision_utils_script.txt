@@ -1,0 +1,4 @@
+python /sde/projects/face-recognition-project/v3/alg-project/codes/utils/ckpt_revision_utils.py \
+--action check_ckpt
+--ckpt_file /sde/projects/face-recognition-project/v3/runtime/embedding/20170717-160610/models/model-20170717-160610.ckpt-1488 \
+--output_file /home/csairmind/Desktop/test.txt

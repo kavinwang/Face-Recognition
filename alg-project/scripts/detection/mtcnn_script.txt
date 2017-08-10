@@ -1,0 +1,4 @@
+python /sde/projects/face-recognition-project/v3/alg-project/codes/detection/mtcnn.py \
+--caffe_model_dir /mind2/projects/face-recognition-project/v3/models/mtcnn_model/caffe_to_tensorflow \
+--output_dir /home/csairmind/Pictures/out/ \
+--image_path /home/csairmind/Pictures/1.jpg

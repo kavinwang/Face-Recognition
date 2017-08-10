@@ -1,0 +1,6 @@
+python /sde/projects/face-recognition-project/v3/alg-project/codes/classifier/csair_classifier.py \
+--data_dir /sdb/workdatas/Face/CSAIR/crop \
+--emb_ckpt_dir /sde/projects/face-recognition-project/v3/runtime/embedding/20170804-170804/models \
+--runtime_dir /sde/projects/face-recognition-project/v3/runtime/classifier \
+--eval_dir /sdb/workdatas/Face/CSAIR/crop \
+--pretrained_classifier /sde/projects/face-recognition-project/v3/runtime/classifier/20170810-153439/classifier/models

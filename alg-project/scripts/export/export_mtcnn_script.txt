@@ -1,0 +1,19 @@
+python /sde/projects/face-recognition-project/v3/alg-project/codes/export/export_mtcnn.py \
+
+## ---------- convert model from caffe to tensorflow ----------
+# --type convert \
+# --model_dir /mind2/projects/face-recognition-project/v3/models/mtcnn_model/caffe_to_tensorflow \
+# --export_path /mind2/projects/face-recognition-project/v3/models/mtcnn_model/tensorflow \
+
+
+## ---------- convert model from caffe to binary model ----------
+--type binary \
+--model_dir /mind2/projects/face-recognition-project/v3/models/mtcnn_model/caffe_to_tensorflow \
+--export_path /mind2/projects/face-recognition-project/v3/binary_models/mtcnn \
+
+
+## ---------- export tensorflow serving model ----------
+# --type serving \
+# --export_version 1
+# --model_dir /mind2/projects/face-recognition-project/v3/models/mtcnn_model/caffe_to_tensorflow \
+# --export_path /mind2/projects/face-recognition-project/v3/serving_models/mtcnn \

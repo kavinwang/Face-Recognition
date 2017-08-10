@@ -1,0 +1,15 @@
+python /sde/projects/face-recognition-project/v3/alg-project/codes/utils/export_utils.py \
+
+## export facenet model
+--model_type facenet \
+--model_version 1
+--model_dir /sde/projects/face-recognition-project/v3/runtime/embedding/20170717-160610/models \
+--export_path /sde/projects/face-recognition-project/v3/serving_models/ \
+--export_version 1
+
+## export classifier model
+--model_type classifier \
+--model_version 0 \
+--model_dir /sde/projects/face-recognition-project/v3/runtime/classifier/20170731-155329/whole/models \
+--export_path /sde/projects/face-recognition-project/v3/serving_models/ \
+--export_version 1

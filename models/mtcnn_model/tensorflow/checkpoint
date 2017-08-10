@@ -1,0 +1,2 @@
+model_checkpoint_path: "/run/media/csairmind/DataDevices/projects/face-recognition-project/alg-project/models/mtcnn_model/tensorflow/model.ckpt"
+all_model_checkpoint_paths: "/run/media/csairmind/DataDevices/projects/face-recognition-project/alg-project/models/mtcnn_model/tensorflow/model.ckpt"

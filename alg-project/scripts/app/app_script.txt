@@ -1,0 +1,4 @@
+python /sde/projects/face-recognition-project/v3/alg-project/codes/app/app.py \
+--model_version 0 \
+--caffe_model_dir /sde/projects/face-recognition-project/v3/models/mtcnn_model/caffe_to_tensorflow \
+--ckpt_dir /sde/projects/face-recognition-project/v3/runtime/classifier/20170731-155329/whole/models
